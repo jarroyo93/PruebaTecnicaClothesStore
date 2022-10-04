@@ -2,12 +2,8 @@ package pom.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import org.openqa.selenium.WebElement;
 import pom.baseclass.Base;
 
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class CompraPage extends Base {

@@ -1,14 +1,10 @@
 package pom.tests;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pom.pages.CompraPage;
-
-import java.util.List;
 
 public class CompraTest{
     private WebDriver driver;
