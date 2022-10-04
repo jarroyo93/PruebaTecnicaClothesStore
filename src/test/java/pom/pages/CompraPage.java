@@ -28,9 +28,6 @@ public class CompraPage extends Base {
     By proAccesorios = By.xpath("//section/app-product-card[10]/div[1]/div[2]/button");
     By proOfertas = By.xpath("//section/app-product-card[2]/div[1]/div[2]/button");
     By cartButton = By.id("cart");
-    By itemsList = By.xpath("//div[text()=' Items en tu carrito']");
-    By logoHome = By.id("logo");
-    By login = By.id("login");
     By modalConfirmation = By.xpath("//div[contains(text(),'Clothesstore LATAM')]");
     By removerItemsCheckout = By.xpath("//button[text()=' REMOVER ITEMS ']");
     By botonVaciar = By.xpath("//button[text()='Sí, vaciar!']");
@@ -113,8 +110,5 @@ public class CompraPage extends Base {
         click(okBoton);
 
     }
-
-
-
 
 }
